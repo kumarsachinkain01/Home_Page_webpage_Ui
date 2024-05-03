@@ -1,0 +1,82 @@
+/* Main container */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+ 
+  
+  /* First part */
+  .partFirst {
+    margin-bottom: 20px;
+  }
+  
+  .partFirst img {
+    width: 800px; /* Adjust as needed */
+    max-width: 600px; /* Adjust as needed */
+  }
+  
+  /* Second part */
+  .partSecond {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .partSecond .heading {
+    margin-bottom: 20px;
+  }
+  
+  .partSecond .buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .partSecond .buttons h3 {
+    margin: 0 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .partSecond .buttons h3:hover {
+    color: #555;
+  }
+  
+  /* Third part */
+  .partThird {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .partThird h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .partThird p {
+    margin-bottom: 10px;
+  }
+  
+  .partThird hr {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Fourth part */
+  .partFour {
+    text-align: center;
+  }
+  
+  .partFour h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .partFour p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
